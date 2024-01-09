@@ -1,0 +1,97 @@
+header {
+    overflow: hidden;
+    background-color: red;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.intro {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.articleTitle {
+    text-align: center;
+    font-family: "Arial Black";
+    font-weigh: bold;
+    font-size: 40px;
+}
+
+p {
+    font-family: "Times New Roman";
+}
+
+p.date {
+    font-family: "Calibri Light";
+    font-style: italic;
+    padding-left: 50px;
+    font-size: 20px
+}
+
+p.author {
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial;
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Arial Narrow";
+    font-size: 18px;
+}
+
+footer {
+    overflow: hidden;
+    background-color: red;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+
+}
+
+a {
+    color: black;
+
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited {
+    color: darkslategray;
+}
+
+#contactInfo {
+    flex: 50%;
+
+}
+#information {
+    flex: 50%;
+}
+
+a.footerLink {
+    color: white;
+
+}
+
+a.footerLink:hover{
+    color: blue;
+}
+
+
